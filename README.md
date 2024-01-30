@@ -1,3 +1,3 @@
-# @bablr/ast-helpers
+# @bablr/agast-helpers
 
 Helper functions for working with agAST trees

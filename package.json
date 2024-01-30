@@ -1,5 +1,5 @@
 {
-  "name": "@bablr/ast-helpers",
+  "name": "@bablr/agast-helpers",
   "description": "Helper functions for working with agAST trees",
   "version": "0.0.0",
   "author": "Conrad Buck<conartist6@gmail.com>",
@@ -20,7 +20,7 @@
     "eslint-plugin-import": "^2.27.5",
     "prettier": "^2.6.2"
   },
-  "repository": "github:bablr-lang/ast-helpers",
-  "homepage": "https://github.com/bablr-lang/ast-helpers",
+  "repository": "github:bablr-lang/agast-helpers",
+  "homepage": "https://github.com/bablr-lang/agast-helpers",
   "license": "MIT"
 }
