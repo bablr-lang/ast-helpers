@@ -11,7 +11,9 @@
     ".": "./lib/index.js"
   },
   "sideEffects": false,
-  "dependencies": {},
+  "dependencies": {
+    "@iter-tools/imm-stack": "1.1.0"
+  },
   "devDependencies": {
     "@bablr/eslint-config-base": "github:bablr-lang/eslint-config-base#c040bc95f2dddac160628e4757a412016044b3ef",
     "enhanced-resolve": "^5.12.0",
