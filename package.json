@@ -8,11 +8,14 @@
     "lib"
   ],
   "exports": {
-    ".": "./lib/index.js"
+    "./builders": "./lib/builders.js",
+    "./path": "./lib/path.js",
+    "./shorthand": "./lib/shorthand.js",
+    "./template": "./lib/template.js",
+    "./tree": "./lib/tree.js"
   },
   "sideEffects": false,
   "dependencies": {
-    "@bablr/boot-helpers": "github:bablr-lang/boot-helpers#0ce932e2c2f4a7749f1935f30dbba62f61abae66",
     "@iter-tools/imm-stack": "1.1.0"
   },
   "devDependencies": {
