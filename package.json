@@ -11,7 +11,6 @@
     "./builders": "./lib/builders.js",
     "./path": "./lib/path.js",
     "./shorthand": "./lib/shorthand.js",
-    "./source": "./lib/source.js",
     "./stream": "./lib/stream.js",
     "./template": "./lib/template.js",
     "./tree": "./lib/tree.js"
