@@ -10,6 +10,7 @@
   "exports": {
     "./builders": "./lib/builders.js",
     "./path": "./lib/path.js",
+    "./print": "./lib/print.js",
     "./shorthand": "./lib/shorthand.js",
     "./stream": "./lib/stream.js",
     "./template": "./lib/template.js",
