@@ -13,6 +13,7 @@
     "./print": "./lib/print.js",
     "./shorthand": "./lib/shorthand.js",
     "./stream": "./lib/stream.js",
+    "./symbols": "./lib/symbols.js",
     "./template": "./lib/template.js",
     "./tree": "./lib/tree.js"
   },
