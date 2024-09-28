@@ -8,6 +8,7 @@
     "lib"
   ],
   "exports": {
+    "./btree": "./lib/btree.js",
     "./builders": "./lib/builders.js",
     "./path": "./lib/path.js",
     "./print": "./lib/print.js",
@@ -19,6 +20,7 @@
   },
   "sideEffects": false,
   "dependencies": {
+    "@bablr/btree": "github:bablr-lang/btree#e426a1fb3263d0d722e68a9b4661efc7e0e87327",
     "@bablr/coroutine": "0.1.0",
     "@iter-tools/imm-stack": "1.1.0"
   },
