@@ -19,9 +19,13 @@
     "./tree": "./lib/tree.js"
   },
   "sideEffects": false,
+  "scripts": {
+    "test": "mocha test/*.test.js"
+  },
   "dependencies": {
     "@bablr/btree": "^0.1.0",
     "@bablr/coroutine": "0.1.0",
+    "@bablr/weak-stack": "0.1.0",
     "@iter-tools/imm-stack": "1.1.0"
   },
   "devDependencies": {
@@ -30,6 +34,7 @@
     "eslint": "^8.32.0",
     "eslint-import-resolver-enhanced-resolve": "^1.0.5",
     "eslint-plugin-import": "^2.27.5",
+    "mocha": "^10.8.2",
     "prettier": "^2.6.2"
   },
   "repository": "github:bablr-lang/agast-helpers",
